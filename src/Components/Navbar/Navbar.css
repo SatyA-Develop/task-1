@@ -1,0 +1,16 @@
+.navbar{
+    height: 4rem;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.navbar:hover{
+    background-color: #969187;
+}
+.navbar>h1{
+    font-size: 2rem;
+    color: #fff;
+}

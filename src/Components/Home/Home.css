@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.t-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.t-style > form {
+  height: 3rem;
+  background: #c9b2b2;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  width: 100%;
+  gap: 1rem;
+  margin: 3rem;
+  position: fixed;
+  top: 1rem;
+}
+form > * {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  width: 8rem;
+}
+.btn {
+  width: 8rem;
+  background: #626262;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: 0.2s all ease-in;
+}
+.btn:hover {
+  background: transparent;
+  color: #363533;
+}
+table {
+  /* position: absolute;
+    left: 50%;
+    top: 50%; */
+  /* transform: translate(-50%, -50%); */
+  margin-top: 12rem;
+  border-collapse: collapse;
+  width: 800px;
+  height: 200px;
+  border: 1px solid #bdc3c7;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+tr {
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  height: 4rem;
+}
+.btn-class {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.icon {
+  font-size: 1rem;
+}
+form:nth-child(2){
+  margin-top: 8rem;
+}
+.header {
+  background-color: #16a085;
+  color: #fff;
+}
+.header:hover {
+  color: #16a085;
+}
+tr:hover {
+  background-color: #f5f5f5;
+  /* transform: scale(1.02); */
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+.icon-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.5rem;
+}
+@media only screen and (max-width: 1024px) {
+  .t-style > form {
+    height: 3rem;
+    background: #c9b2b2;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    width: 100%;
+    gap: 0.5rem;
+  }
+  form>*{
+    width: 8rem;
+  }
+  table{
+    width: 90%;
+  }
+}
